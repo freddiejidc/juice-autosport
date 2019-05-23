@@ -1,0 +1,149 @@
+.header a div {
+    padding: 60px;
+    width: 100%;
+    height: 236px;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
+  }
+
+
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: red;
+  padding: 50px;
+  font-size: 20px;
+}
+
+
+.gallery-container a div {
+ width: 100%;
+ height: 236px;
+ filter: blur(4px);
+ opacity: 0.5;
+ filter: alpha(opacity=50); /* For IE8 and earlier */
+ background-color: red;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ }
+ div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: center;
+    width: 180px;
+  }
+ 
+ p {
+    border-radius: 15px 50px 30px;
+    background: rgb(0, 0, 0);
+    padding: 20px; 
+    color: #ffffff
+  }
+
+  h1 {
+    font-size: 25px;
+    font-weight: bold;
+    float: left;
+    padding-left: 20px;
+    color: white;
+  }
+
+  h3 {
+    color: rgb(0, 0, 0);
+  }
+
+  img {
+    border-radius: 50%;
+    max-height: 235px;
+    max-width: 350px;
+    transform: translate(-50%, -103%);
+    position: absolute;
+    margin-right: 50%;
+
+  }
+
+  .gallery-container a div:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+div.wrapper {
+    max-width: 900px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+  }
+
+  body, html {
+    height: 100%;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-img {
+    /* The image used */
+    background-image: url("img.jpg");
+  
+    /* Control the height of the image */
+    min-height: 380px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  /* Add styles to the form container */
+  .container {
+    position: absolute;
+    right: 0;
+    margin: 20px;
+    max-width: 300px;
+    padding: 16px;
+    background-color: white;
+    border-radius: 15px 50px 30px;
+  }
+  
+  /* Full-width input fields */
+    input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;   
+  }
+  
+  /* Set a style for the submit button */
+  .btn {
+    background-color: #000000;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    margin: 10px 0 0 0px;
+    border-radius: 15px 50px 30px;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+ 
+  body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  
+  a:link {
+    text-decoration: none;
+    }
